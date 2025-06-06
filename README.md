@@ -1,4 +1,5 @@
 # Roteamento-com-Pedidos-por-Lote
+
 Em grandes centros de distribuição, a eficiência nos processos de coleta de itens (picking) impacta diretamente na produtividade e nos custos logísticos. Este projeto visa desenvolver um sistema que, a partir de um mapa de um armazém modelado como grafo, calcule automaticamente a rota mais curta para o processo de Picking por Lote. Baseado no algoritmo de Dijkstra, o sistema gera lotes de pedidos de forma aleatória, calcula a sequência ótima de vértices a serem visitados e exibe, em uma interface gráfica interativa (Tkinter + NetworkX + Matplotlib), o caminho otimizado para o operador logístico seguir.
 
 🎯 Objetivos
@@ -13,7 +14,7 @@ Demonstrar o uso de estruturas de dados avançadas (fila de prioridade, manipula
 ⚙️ Funcionalidades
 Modelagem do armazém como grafo: nós representam pontos de coleta (áreas de picking) e os vértices, as conexões com pesos (distâncias).
 
-Geração aleatória de pedidos: cada lote contém de 3 a 5 pedidos, com 1 a 2 itens por pedido, selecionados aleatoriamente.
+Geração aleatória de pedidos: cada lote contém 5 pedidos, com 1 a 2 itens por pedido, selecionados aleatoriamente.
 
 Cálculo automático de rota:
 
